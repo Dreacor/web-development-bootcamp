@@ -1,0 +1,20 @@
+/* Two selectors can be used together, this will edit them both */
+h1,
+h2 {
+    color: red;
+}
+
+/* ID selector #, this is used to edit individual IDs or elements*/
+#search {
+    font-size: 30px;
+    background-color: brown;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+/* .tag here uses class attributge from an element. span doens't need to be defined here. In this case span is the parent and .tag is the target under span element. */
+
+span.tag {
+    color: darkorchid;
+    background-color: aqua;
+}
