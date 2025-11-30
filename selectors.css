@@ -18,3 +18,16 @@ span.tag {
     color: darkorchid;
     background-color: aqua;
 }
+
+/* Nested elements, like anchor tags (a) that are inside lists (li) */
+
+footer a {
+    background-color: black;
+}
+
+li a {
+    color: #4141FF;
+    background-color: bisque;
+    text-decoration: overline black wavy;
+    text-align: center;
+}
